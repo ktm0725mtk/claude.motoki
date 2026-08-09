@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cafe Motoki | 隠れ家カフェ</title>
+<meta name="description" content="Cafe Motoki（カフェ モトキ）の公式サイト。こだわりのコーヒーと焼き菓子をご提供する隠れ家カフェです。">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="logo">Cafe Motoki</a>
+    <button class="nav-toggle" id="navToggle" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#about">お店について</a>
+      <a href="#menu">メニュー</a>
+      <a href="#access">アクセス</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section id="top" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-eyebrow">WELCOME TO</p>
+      <h1>Cafe Motoki</h1>
+      <p class="hero-lead">一杯のコーヒーから、ゆっくりとした時間を。<br>街の片隅にある、小さな隠れ家カフェです。</p>
+      <a href="#access" class="btn btn-primary">アクセスを見る</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">お店について</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Cafe Motoki（カフェ モトキ）は、2020年にオープンした小さなカフェです。
+            自家焙煎にこだわったスペシャルティコーヒーと、毎朝手作りする焼き菓子を
+            お楽しみいただけます。
+          </p>
+          <p>
+            木のぬくもりを感じる店内で、お一人での読書時間にも、
+            友人とのおしゃべりにも、ゆったりとお過ごしいただける空間づくりを大切にしています。
+          </p>
+          <ul class="about-list">
+            <li>自家焙煎スペシャルティコーヒー</li>
+            <li>毎日手作りの焼き菓子・スイーツ</li>
+            <li>Wi-Fi・電源完備の落ち着いた店内</li>
+          </ul>
+        </div>
+        <div class="about-image" role="img" aria-label="店内の様子（イメージ）"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">メニュー</h2>
+      <div class="menu-grid">
+
+        <div class="menu-group">
+          <h3>Drink</h3>
+          <ul class="menu-list">
+            <li><span>ブレンドコーヒー</span><span class="price">¥480</span></li>
+            <li><span>カフェラテ</span><span class="price">¥550</span></li>
+            <li><span>カプチーノ</span><span class="price">¥550</span></li>
+            <li><span>紅茶（ポット）</span><span class="price">¥500</span></li>
+            <li><span>季節のフルーツジュース</span><span class="price">¥600</span></li>
+          </ul>
+        </div>
+
+        <div class="menu-group">
+          <h3>Sweets</h3>
+          <ul class="menu-list">
+            <li><span>本日の焼き菓子</span><span class="price">¥380</span></li>
+            <li><span>チーズケーキ</span><span class="price">¥520</span></li>
+            <li><span>季節のタルト</span><span class="price">¥580</span></li>
+          </ul>
+        </div>
+
+        <div class="menu-group">
+          <h3>Food</h3>
+          <ul class="menu-list">
+            <li><span>本日のサンドイッチ</span><span class="price">¥780</span></li>
+            <li><span>キッシュプレート</span><span class="price">¥900</span></li>
+          </ul>
+        </div>
+
+      </div>
+      <p class="menu-note">※ メニューは仮の内容です。実際の商品・価格に合わせて差し替えてください。</p>
+    </div>
+  </section>
+
+  <section id="access" class="section">
+    <div class="container">
+      <h2 class="section-title">アクセス・営業時間</h2>
+      <div class="access-grid">
+        <div class="access-info">
+          <dl>
+            <dt>住所</dt>
+            <dd>〒000-0000<br>東京都〇〇区〇〇 1-2-3</dd>
+            <dt>電話番号</dt>
+            <dd>03-0000-0000</dd>
+            <dt>営業時間</dt>
+            <dd>10:00 - 19:00（L.O. 18:30）</dd>
+            <dt>定休日</dt>
+            <dd>毎週水曜日</dd>
+            <dt>アクセス</dt>
+            <dd>〇〇駅 徒歩5分</dd>
+          </dl>
+        </div>
+        <div class="access-map" role="img" aria-label="地図（プレースホルダー）">
+          <p>ここに地図を設置します</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">お問い合わせ</h2>
+      <p class="contact-lead">ご予約・貸切・その他ご質問はこちらのフォームからお気軽にどうぞ。</p>
+
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="form-row">
+          <label for="name">お名前 <span class="required">必須</span></label>
+          <input type="text" id="name" name="name" required>
+          <p class="error-message" data-error-for="name"></p>
+        </div>
+
+        <div class="form-row">
+          <label for="email">メールアドレス <span class="required">必須</span></label>
+          <input type="email" id="email" name="email" required>
+          <p class="error-message" data-error-for="email"></p>
+        </div>
+
+        <div class="form-row">
+          <label for="message">お問い合わせ内容 <span class="required">必須</span></label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+          <p class="error-message" data-error-for="message"></p>
+        </div>
+
+        <button type="submit" class="btn btn-primary">送信する</button>
+        <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Cafe Motoki</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
